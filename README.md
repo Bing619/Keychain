@@ -9,9 +9,9 @@ import * as Keychain from 'react-native-keychain';
 const username = 'zuck';           
 const password = 'poniesRgr81';           
 Keychain.setSharedWebCredentials('www.XXXXXXXX.com',username,password).then(e=>{           
->>console.log('0:',e)         
+    console.log('0:',e)         
 }).catch(e=>{        
->>console.log('1:',e)         
+        console.log('1:',e)         
 })            
     
 
