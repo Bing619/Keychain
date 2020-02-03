@@ -9,9 +9,9 @@ import * as Keychain from 'react-native-keychain';
 const username = 'zuck';           
 const password = 'poniesRgr81';           
 Keychain.setSharedWebCredentials('www.XXXXXXXX.com',username,password).then(e=>{           
-       console.log('0:',e)         
+>>console.log('0:',e)         
 }).catch(e=>{        
-       console.log('1:',e)         
+>>console.log('1:',e)         
 })            
     
 
@@ -29,8 +29,8 @@ Keychain.setSharedWebCredentials('www.XXXXXXXX.com',username,password).then(e=>{
 
 4. 最后效果
 -------
-        ![](https://github.com/Bing619/Keychain/blob/master/img/1.png)  
-        ![](https://github.com/Bing619/Keychain/blob/master/img/2.jpeg)  
+![](https://github.com/Bing619/Keychain/blob/master/img/1.png)  
+![](https://github.com/Bing619/Keychain/blob/master/img/2.jpeg)  
 
 5. 备注
 -------
