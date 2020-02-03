@@ -1,19 +1,19 @@
 Keychain
 ====
 
-1. 使用react-native-keychain
--------
-参考链接：https://github.com/oblador/react-native-keychain          
+1. 使用[react-native-keychain](https://github.com/oblador/react-native-keychain)
+-------     
 yarn add react-native-keychain                              
-import * as Keychain from 'react-native-keychain';             
+import * as Keychain from 'react-native-keychain'; 
+```
 const username = 'zuck';           
 const password = 'poniesRgr81';           
 Keychain.setSharedWebCredentials('www.XXXXXXXX.com',username,password).then(e=>{           
-    console.log('0:',e)         
+console.log('0:',e)         
 }).catch(e=>{        
-        console.log('1:',e)         
+console.log('1:',e)         
 })            
-    
+```  
 
 2. 在工程中开启Associated Domains， 填写需要在哪个domain中保存的账户密码。
 -------
